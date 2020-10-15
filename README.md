@@ -1,4 +1,4 @@
-# imageToPDFConvertor
+# Image To PDFConvertor
 Project done using Tesseract.js multer ejs and express 
 
 Link to the website: 
