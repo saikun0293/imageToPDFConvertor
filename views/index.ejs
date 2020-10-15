@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Img to PDF</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="/styles/index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="title">Image to PDF</div>
+      <!-- For multer to work we need to add another attr enctype="multipart/form-data" -->
+      <form action="/upload" method="POST" enctype="multipart/form-data">
+        <!-- The name should match with the fieldName in single -->
+        <input class="file-input" type="file" name="avatar" />
+        <button class="convert" type="submit">Convert</button>
+      </form>
+    </div>
+  </body>
+</html>
